@@ -1,8 +1,10 @@
 export default function homePage() {
+    const headerDiv = document.createElement('div');
+    const header = document.createElement('h1');
+    const infoDiv = document.createElement('div');
+    const info = document.createElement('p');
     const content = document.getElementById('content');
-    const test = document.createElement('p');
 
-    test.textContent = 'testing';
-    content.appendChild(test);
-    console.log("home page console log again");
+    
+    console.log("home page console log");
 }
