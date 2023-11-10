@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("oi fam"),console.log("home js")})();
+(()=>{"use strict";console.log("oi fam"),function(){const e=document.getElementById("content"),t=document.createElement("p");t.textContent="testing",e.appendChild(t),console.log("home page console log again")}()})();
