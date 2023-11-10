@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("oi fam"),function(){const e=document.createElement("div"),t=document.createElement("h1"),n=document.createElement("div"),o=document.createElement("p"),d=document.getElementById("content");t.textContent="Welcome to this restaurant",e.classList.add("header"),e.appendChild(t),o.textContent="Stuff about this restaurant",n.classList.add("info"),n.appendChild(o),d.appendChild(e),d.appendChild(n),console.log("home page console log")}()})();
+(()=>{"use strict";console.log("oi fam")})();
