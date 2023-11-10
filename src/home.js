@@ -6,9 +6,11 @@ export default function homePage() {
     const content = document.getElementById('content');
 
     header.textContent = 'Welcome to this restaurant';
+    headerDiv.classList.add('header');
     headerDiv.appendChild(header);
 
     info.textContent = 'Stuff about this restaurant';
+    infoDiv.classList.add('info');
     infoDiv.appendChild(info);
 
     content.appendChild(headerDiv);
