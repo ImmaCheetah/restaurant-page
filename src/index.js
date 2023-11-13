@@ -2,7 +2,8 @@ import homePage from './home.js';
 import menuPage from './menu.js';
 import contactPage from './contact.js';
 
-const navBarDiv = document.createElement('div');
+// Variables
+const navBarDiv = document.getElementById('nav-bar');
 const homeBtn = document.createElement('button');
 const menuBtn = document.createElement('button');
 const contactBtn = document.createElement('button');
@@ -16,7 +17,12 @@ navBarDiv.appendChild(homeBtn);
 navBarDiv.appendChild(menuBtn);
 navBarDiv.appendChild(contactBtn);
 
-content.appendChild(navBarDiv);
+// content.appendChild(navBarDiv);
+
+// Event Listeners
+
+
+
 
 console.log('oi fam');
 // homePage();
