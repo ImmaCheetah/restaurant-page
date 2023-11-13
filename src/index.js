@@ -17,14 +17,15 @@ navBarDiv.appendChild(homeBtn);
 navBarDiv.appendChild(menuBtn);
 navBarDiv.appendChild(contactBtn);
 
-// content.appendChild(navBarDiv);
 
 // Event Listeners
-
+homeBtn.addEventListener('click', function() {
+    content.textContent = '';
+    homePage();
+})
 
 
 
 console.log('oi fam');
-// homePage();
 // menuPage();
 // contactPage();
