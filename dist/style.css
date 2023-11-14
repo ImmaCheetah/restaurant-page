@@ -81,23 +81,31 @@ body {
 #content {
     display: flex;
     justify-content: center;
+    
 }
 
 .main-info-div {
     width: 1000px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-top: 50px;
     /* align-items: center; */
 }
 
-.left-info h1 {
+h1 {
     font-size: 50px;
     font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
 }
 
 .right-info {
-    width: 500px;
+    /* width: 500px; */
 }
 
 img {
