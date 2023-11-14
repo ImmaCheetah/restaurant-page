@@ -1,1 +1,2 @@
 # restaurant-page
+Image by <a href="https://www.freepik.com/free-vector/hand-drawn-burrito-cartoon-illustration_52585344.htm#query=burritos%20logo&position=29&from_view=keyword&track=ais&uuid=dc9a0c9c-dce4-444d-8d59-40910004a369">Freepik</a>
