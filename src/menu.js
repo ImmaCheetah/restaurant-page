@@ -15,6 +15,9 @@ export default function menuPage() {
     header.textContent = 'Our Menu';
     // headerDiv.classList.add('header');
 
+    itemOneDiv.classList.add('item');
+    itemTwoDiv.classList.add('item');
+    itemThreeDiv.classList.add('item');
 
     itemOneTitle.textContent = 'Southwest Sunrise Burrito';
     itemOneDesc.textContent = 'Scrambled eggs, savory chorizo, diced tomatoes, black beans, and melted pepper jack cheese, all wrapped in a warm flour tortilla. Topped with zesty avocado salsa and a drizzle of cilantro lime cream. Perfect for starting your day with a flavorful kick.';
