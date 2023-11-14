@@ -24,8 +24,15 @@ homeBtn.addEventListener('click', function() {
     homePage();
 })
 
+menuBtn.addEventListener('click', function() {
+    content.textContent = '';
+    menuPage();
+})
+
+contactBtn.addEventListener('click', function() {
+    content.textContent = '';
+    contactPage();
+})
 
 
 console.log('oi fam');
-// menuPage();
-// contactPage();
