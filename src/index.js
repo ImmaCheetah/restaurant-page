@@ -34,5 +34,7 @@ contactBtn.addEventListener('click', function() {
     contactPage();
 })
 
+homePage();
+
 
 console.log('oi fam');
